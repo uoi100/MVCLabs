@@ -10,10 +10,10 @@ namespace MVCLab04.Models
     public class Program
     {
         [ScaffoldColumn(false)]
-        public int ProductID { get; set; }
+        public int ProgramID { get; set; }
 
         [Required, StringLength(100), Display(Name = "Name")]
-        public string ProductName { get; set; }
+        public string ProgramName { get; set; }
 
         public virtual ICollection<Student> Students { get; set; }
     }

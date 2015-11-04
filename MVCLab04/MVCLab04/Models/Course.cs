@@ -9,10 +9,10 @@ namespace MVCLab04.Models
 {
     public class Course
     {
-        [Required, StringLength(100), Display(Name = "COMP4956")]
+        [Required, StringLength(100), Display(Name = "Course ID")]
         public string CourseID { get; set; }
 
-        [Required, StringLength(100), Display(Name = "Technical Programming")]
+        [Required, StringLength(100), Display(Name = "Course Name")]
         public string CourseName { get; set; }
 
         [Required]
