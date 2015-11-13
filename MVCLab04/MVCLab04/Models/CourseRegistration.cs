@@ -14,6 +14,9 @@ namespace MVCLab04.Models
         [Required]
         public int Grade { get; set; }
 
+        public string StudentID { get; set; }
+        public string CourseID { get; set; }
+
         public virtual Student Student { get; set; }
         public virtual Course Course { get; set; }
     }
